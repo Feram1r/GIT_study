@@ -1,0 +1,23 @@
+ИЗУЧЕНИЕ GIT
+Установка
+	# Ubuntu
+	sudo apt update # на всякий случай смотрим новые версии
+	sudo apt install git-all
+Инициализация GIT 
+	открываем директорию проекта в терминале
+	git init - создаем репозиторий git
+Конфигурация
+	- Уровни конфигурации:
+	локальный, --local
+	глобальный --global
+	и системный. --system
+	
+	git config user.name "Konstantin Sokolov" - устанавливаем
+	git config user.email "kostya.sokolov.0505@gmail.com"
+	git config --unset user.name - убираем
+	git config --unset user.email
+	Алиасы - заменители длинных флагов
+	например
+	git config --global alias.c config
+	устанавливает вместо config букву c
+	git config == git c
